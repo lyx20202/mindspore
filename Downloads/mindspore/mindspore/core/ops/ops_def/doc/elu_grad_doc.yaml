@@ -1,3 +1,0 @@
-elu_grad:
-  description: |
-    Gradients of Elu operation.

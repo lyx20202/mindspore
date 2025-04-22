@@ -1,4 +1,0 @@
- a.jpg
-b.jpg
- 
-c.jpg

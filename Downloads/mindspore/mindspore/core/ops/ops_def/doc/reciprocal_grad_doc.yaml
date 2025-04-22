@@ -1,3 +1,0 @@
-reciprocal_grad:
-    description: |
-        Performs grad of Reciprocal operation.

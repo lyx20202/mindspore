@@ -1,3 +1,0 @@
-avg_pool_grad:
-    description: |
-        Gradients of the avg pool operation.

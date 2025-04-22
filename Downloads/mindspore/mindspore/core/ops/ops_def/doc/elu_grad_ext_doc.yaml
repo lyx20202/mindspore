@@ -1,3 +1,0 @@
-elu_grad_ext:
-  description: |
-    Gradients of EluExt operation.

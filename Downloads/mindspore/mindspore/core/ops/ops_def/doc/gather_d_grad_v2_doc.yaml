@@ -1,3 +1,0 @@
-gather_d_grad_v2:
-  description: |
-    Computes gradient for the GatherD operation. Note that the operator "GatherDGrad" has been abandoned.

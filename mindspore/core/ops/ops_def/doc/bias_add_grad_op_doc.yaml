@@ -1,3 +1,0 @@
-bias_add_grad:
-    description: |
-        Computes gradients of BiasAdd.

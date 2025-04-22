@@ -1,3 +1,0 @@
-gelu_grad:
-    description: |
-            Gradients of GeLU operation.

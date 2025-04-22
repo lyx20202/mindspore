@@ -1,3 +1,0 @@
-fast_gelu_grad:
-    description: |
-            Gradients of FastGeLU operation.

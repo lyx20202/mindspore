@@ -1,8 +1,0 @@
-#operator sinc
-sinc:
-    args:
-        input:
-            dtype: tensor
-    returns:
-        output:
-            dtype: tensor

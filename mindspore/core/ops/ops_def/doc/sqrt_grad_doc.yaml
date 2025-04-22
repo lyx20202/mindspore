@@ -1,3 +1,0 @@
-sqrt_grad:
-    description: |        
-        Performs grad of Sqrt operation.

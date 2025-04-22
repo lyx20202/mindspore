@@ -1,1 +1,0 @@
-train_neg_1.txt

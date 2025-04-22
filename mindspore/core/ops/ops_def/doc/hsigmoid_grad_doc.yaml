@@ -1,3 +1,0 @@
-hsigmoid_grad:
-    description: |
-        Gets the gradient of HSigmoid operation.

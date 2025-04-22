@@ -1,0 +1,16 @@
+#operator select/where
+select:
+    args:
+        condition:
+            dtype: tensor
+        input:
+            dtype: tensor
+            type_cast: number
+        other:
+            dtype: tensor
+            type_cast: number
+    returns:
+        output:
+            dtype: tensor
+    dispatch:
+        enable: True

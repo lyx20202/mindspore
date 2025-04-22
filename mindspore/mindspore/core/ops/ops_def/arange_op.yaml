@@ -1,0 +1,23 @@
+#operator arange
+arange:
+    args:
+        start:
+            dtype: number
+        end:
+            dtype: number
+        step:
+            dtype: number
+        dtype:
+            dtype: TypeId
+            arg_handler: dtype_to_type_id
+            default: None
+    args_signature:
+        dtype_group: (start, end, step)
+    returns:
+        output:
+            dtype: tensor
+    function:
+      disable: True
+    dispatch:
+      enable: True
+      Ascend: ArangeAscend

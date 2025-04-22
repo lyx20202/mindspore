@@ -1,0 +1,281 @@
+AddExt: 'aclnnAdd'
+Bmm: 'aclnnBatchMatMul'
+BatchMatMulExt: 'aclnnBatchMatMul'
+Concat: 'aclnnCat'
+SiLU: 'aclnnSilu'
+Pow: 'aclnnPowTensorTensor'
+Embedding: 'aclnnEmbedding'
+EmbeddingDenseGrad: 'aclnnEmbeddingDenseGrad'
+MatMulExt: 'aclnnMatmul'
+GroupedMatmul: 'aclnnGroupedMatmulV3'
+MaskedFill: 'aclnnInplaceMaskedFillTensor'
+GreaterEqual: 'aclnnGeTensor'
+UniformExt: 'aclnnInplaceUniform'
+GeLU: 'aclnnGelu'
+GeLUGrad: 'aclnnGeluBackward'
+ReverseV2: 'aclnnFlip'
+Less: 'aclnnLtTensor'
+LessEqual: 'aclnnLeTensor'
+SubExt: 'aclnnSub'
+Sum: 'aclnnReduceSum'
+SigmoidGrad: 'aclnnSigmoidBackward'
+SiLUGrad: 'aclnnSiluBackward'
+GatherDGradV2: 'aclnnScatterAdd'
+GatherD: 'aclnnGather'
+ScatterAddExt: 'aclnnScatterAdd'
+ReLU: 'aclnnRelu'
+ReLUGrad: 'aclnnThresholdBackward'
+LinSpaceExt: 'aclnnLinspace'
+Tile: 'aclnnRepeat'
+DynamicQuantExt: 'aclnnDynamicQuant'
+Transpose: 'aclnnPermute'
+ArgMaxExt: 'aclnnArgMax'
+Equal: 'aclnnEqTensor'
+Greater: 'aclnnGtTensor'
+ArgMaxWithValue: 'aclnnMaxDim'
+ArgMinWithValue: 'aclnnMinDim'
+ConstantPadND: 'aclnnConstantPadNd'
+ReflectionPad1D: 'aclnnReflectionPad1d'
+ReflectionPad2D: 'aclnnReflectionPad2d'
+ReflectionPad3D: 'aclnnReflectionPad3d'
+ReflectionPad1DGrad: 'aclnnReflectionPad1dBackward'
+ReflectionPad2DGrad: 'aclnnReflectionPad2dBackward'
+ReflectionPad3DGrad: 'aclnnReflectionPad3dBackward'
+ReplicationPad1D: 'aclnnReplicationPad1d'
+ReplicationPad2D: 'aclnnReplicationPad2d'
+ReplicationPad3D: 'aclnnReplicationPad3d'
+ReplicationPad1DGrad: 'aclnnReplicationPad1dBackward'
+ReplicationPad2DGrad: 'aclnnReplicationPad2dBackward'
+ReplicationPad3DGrad: 'aclnnReplicationPad3dBackward'
+ReduceAny: 'aclnnAny'
+QuantBatchMatmul: 'aclnnQuantMatmulV3'
+NormalTensorTensor: 'aclnnNormalTensorTensor'
+NormalTensorFloat: 'aclnnNormalTensorFloat'
+NormalFloatTensor: 'aclnnNormalFloatTensor'
+NormalFloatFloat: 'aclnnNormalFloatFloat'
+FFNExt: 'aclnnFFN'
+GroupNormGrad: 'aclnnGroupNormBackward'
+BatchNormExt: 'aclnnBatchNorm'
+BatchNormGradExt: 'aclnnBatchNormBackward'
+NotEqual: 'aclnnNeTensor'
+LayerNormExt: 'aclnnLayerNorm'
+LayerNormGradExt: 'aclnnLayerNormBackward'
+Norm: 'aclnnLinalgVectorNorm'
+ClampScalar: 'aclnnClamp'
+OneHotExt: 'aclnnOneHot'
+Select: 'aclnnSWhere'
+MaxPoolWithIndices: 'aclnnMaxPool2dWithIndices'
+MaxpoolGradWithIndices: 'aclnnMaxPool2dWithIndicesBackward'
+MaxPoolWithMask: 'aclnnMaxPool2dWithMask'
+MaxPoolGradWithMask: 'aclnnMaxPool2dWithMaskBackward'
+SoftplusExt: 'aclnnSoftplus'
+SoftplusGradExt: 'aclnnSoftplusBackward'
+StackExt: 'aclnnStack'
+TopkExt: 'aclnnTopk'
+WeightQuantBatchMatmul: 'aclnnWeightQuantBatchMatmulV2'
+# 1
+
+# 2
+
+# 3
+
+# 4
+
+# 5
+
+# 6
+CumsumExt: 'aclnnCumsum'
+# 7
+Col2ImGrad: 'aclnnIm2col'
+# 8
+
+# 9
+
+# 10
+
+# 11
+
+# 12
+
+# 13
+
+# 14
+
+# 15
+
+# 16
+
+# 17
+
+# 18
+
+# 19
+
+# 20
+
+# 21
+
+# 22
+
+# 23
+
+# 24
+
+# 25
+
+# 26
+
+# 27
+
+# 28
+
+# 29
+
+# 30
+
+# 31
+Im2ColExt: 'aclnnIm2col'
+Col2ImExt: 'aclnnIm2colBackward'
+# 32
+
+# 33
+
+# 34
+
+# 35
+
+# 36
+
+# 37
+NonZero: 'aclnnNonzero'
+# 38
+
+# 39
+
+# 40
+
+# 41
+
+# 42
+
+# 43
+
+# 44
+
+# 45
+
+# 46
+
+# 47
+
+# 48
+
+# 49
+
+# 50
+
+# 51
+
+# 52
+
+# 53
+
+# 54
+
+# 55
+
+# 56
+
+# 57
+
+# 58
+
+# 59
+
+# 60
+
+# 61
+
+# 62
+
+# 63
+
+# 64
+
+# 65
+
+# 66
+
+# 67
+
+# 68
+
+# 69
+
+# 70
+
+# 71
+
+# 72
+
+# 73
+
+# 74
+SortExt: 'aclnnSort'
+# 75
+
+# 76
+
+# 77
+
+# 78
+
+# 79
+
+# 80
+
+# 81
+
+# 82
+
+# 83
+
+# 84
+AdamW: 'aclnnApplyAdamWV2'
+# 85
+
+# 86
+
+# 87
+
+# 88
+
+# 89
+
+# 90
+
+# 91
+
+# 92
+LeakyReLUExt: 'aclnnLeakyRelu'
+LeakyReLUGradExt: 'aclnnLeakyReluBackward'
+# 93
+
+# 94
+
+# 95
+
+# 96
+
+# 97
+
+# 98
+
+# 99
+
+# 100
+
+# 176
+Atan2Ext: 'aclnnAtan2'
+# 231
+MatrixInverseExt: 'aclnnInverse'

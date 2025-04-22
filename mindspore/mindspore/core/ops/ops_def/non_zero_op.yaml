@@ -1,0 +1,15 @@
+#operator non_zero
+non_zero:
+    args:
+        input:
+            dtype: tensor
+    returns:
+        output:
+            dtype: tensor
+    function:
+        disable: True
+    dispatch:
+        enable: True
+        Ascend: NonZeroAscend
+        CPU: NonZeroCPU
+        GPU: NonZeroGPU

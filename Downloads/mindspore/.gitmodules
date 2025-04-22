@@ -1,0 +1,26 @@
+[submodule "akg"]
+	path = akg
+	url = https://gitee.com/mindspore/akg.git
+[submodule "graphengine"]
+	path = graphengine
+	url = https://gitee.com/mindspore/graphengine.git
+[submodule "tests/models"]
+	path = tests/models
+	url = https://gitee.com/mindspore/models.git
+[submodule "mindspore/lite/src/litert/kernel/cpu/bolt/bolt"]
+	path = mindspore/lite/src/litert/kernel/cpu/bolt/bolt
+	url = https://gitee.com/mindspore/bolt.git
+[submodule "tests/st/networks/mindcv"]
+	path = tests/st/networks/mindcv
+	url = https://gitee.com/mindspore-lab/mindcv.git
+[submodule "tests/st/networks/mindocr"]
+	path = tests/st/networks/mindocr
+	url = https://gitee.com/mindspore-lab/mindocr.git
+	branch = overfit
+[submodule "tests/st/networks/mindone"]
+	path = tests/st/networks/mindone
+	url = https://gitee.com/mindspore-lab/mindone.git
+	branch = ms2.3
+[submodule "tests/st/networks/mindformers"]
+	path = tests/st/networks/mindformers
+	url = https://gitee.com/mindspore/mindformers.git

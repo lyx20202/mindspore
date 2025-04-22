@@ -1,0 +1,20 @@
+#operator softplus_grad_ext
+softplus_grad_ext:
+    args:
+        dout:
+            dtype: tensor
+        x:
+            dtype: tensor
+        beta:
+            dtype: number
+            default: 1
+        threshold:
+            dtype: number
+            default: 20
+    returns:
+        output:
+            dtype: tensor
+    function:
+        disable: True
+    dispatch:
+        enable: True

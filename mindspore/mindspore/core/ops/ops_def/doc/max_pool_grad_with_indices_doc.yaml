@@ -1,3 +1,0 @@
-max_pool_grad_with_indices:
-  description: |
-    Gradients of the MaxPoolWithIndices operation.

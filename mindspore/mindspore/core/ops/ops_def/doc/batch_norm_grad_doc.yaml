@@ -1,3 +1,0 @@
-batch_norm_grad:
-    description: |
-        Performs grad of BatchNorm operation.

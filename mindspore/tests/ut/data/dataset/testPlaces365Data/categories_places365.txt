@@ -1,2 +1,0 @@
-/a/airfield 0
-/a/airplane_cabin 1

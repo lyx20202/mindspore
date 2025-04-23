@@ -1,6 +1,0 @@
-not_equal:
-    description: |
-        Alias for :func:`mindspore.ops.ne` .
-
-        Supported Platforms:
-            ``Ascend`` ``GPU`` ``CPU``

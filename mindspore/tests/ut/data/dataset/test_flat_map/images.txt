@@ -1,3 +1,0 @@
-../data/dataset/testPK/data
-../data/dataset/testImageNetData/train
-../data/dataset/testImageNetData2/train
